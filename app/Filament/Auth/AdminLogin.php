@@ -9,7 +9,11 @@ class AdminLogin extends Login
 {
     public function getHeading(): string|Htmlable
     {
-        return __('Login Here');
+        return 'TAKASUKMA';
     }
 
+    public function getSubheading(): string|Htmlable
+    {
+        return 'Tata Kelola Arsip Surat Kementerian Agama';
+    }
 }
