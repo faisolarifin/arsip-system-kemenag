@@ -16,7 +16,7 @@
 
   <header class="w-full py-6 px-4 md:px-12 bg-white shadow-sm">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <h1 class="text-2xl md:text-3xl font-bold text-green-700">TAKASUKMA</h1>
+      <img src="{{ asset('img/takasukma_transparent.png') }}" class="h-10" alt="Logo Kementerian Agama">
       <a href="/admin/" class="bg-green-600 text-white px-6 py-2 rounded-xl text-sm font-semibold hover:bg-green-700 transition-all">Login</a>
     </div>
   </header>

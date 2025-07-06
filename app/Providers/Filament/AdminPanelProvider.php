@@ -29,6 +29,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->brandName('TAKASUKMA')
+            ->brandLogo(fn () => view('vendor.filament.resources.brand-logo'))
             ->login()
             ->colors([
                 'primary' => Color::Amber,
