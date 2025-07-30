@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TAKASUKMA - Tata Kelola Arsip Surat</title>
+  <title>ARSIP PENDIS - Sistem Arsip Surat Kementerian Agama</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -16,7 +16,7 @@
 
   <header class="w-full py-6 px-4 md:px-12 bg-white shadow-sm">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-      <img src="{{ asset('img/takasukma_transparent.png') }}" class="h-10" alt="Logo Kementerian Agama">
+      <img src="{{ asset('img/logo.png') }}" class="h-10" alt="Logo Kementerian Agama">
       <a href="/admin/" class="bg-green-600 text-white px-6 py-2 rounded-xl text-sm font-semibold hover:bg-green-700 transition-all">Login</a>
     </div>
   </header>
@@ -24,7 +24,7 @@
   <main class="max-w-7xl mx-auto px-4 md:px-12 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
     <div class="md:w-1/2 space-y-6">
       <h2 class="text-4xl md:text-5xl font-bold text-green-800 leading-tight">
-        Tata Kelola Arsip Surat <br class="hidden md:block"> Kementerian Agama
+        Sistem Arsip Surat <br class="hidden md:block"> Kementerian Agama
       </h2>
       <p class="text-lg text-gray-600">
         Aplikasi modern untuk mengelola arsip surat masuk dan keluar secara efisien, terstruktur, dan mudah diakses oleh seluruh unit kerja Kementerian Agama.
