@@ -9,11 +9,11 @@ class AdminLogin extends Login
 {
     public function getHeading(): string|Htmlable
     {
-        return 'TAKASUKMA';
+        return 'ARSIP PENDIS';
     }
 
     public function getSubheading(): string|Htmlable
     {
-        return 'Tata Kelola Arsip Surat Kementerian Agama';
+        return 'Sistem Informasi Arsip Surat Pendis Kementerian Agama';
     }
 }

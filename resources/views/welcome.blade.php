@@ -21,25 +21,25 @@
     </div>
   </header>
 
-  <main class="max-w-7xl mx-auto px-4 md:px-12 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
-    <div class="md:w-1/2 space-y-6">
-      <h2 class="text-4xl md:text-5xl font-bold text-green-800 leading-tight">
-        Sistem Arsip Surat <br class="hidden md:block"> Kementerian Agama
+  <main class="min-h-screen max-w-7xl mx-auto px-4 md:px-12 py-1 flex flex-col items-center justify-center text-center gap-12">
+    <div class="mt-12">
+      <img src="{{ asset('img/dirjen.jpg') }}" alt="Ilustrasi Arsip Digital" class="w-full max-w-2xl mx-auto rounded-lg shadow-lg">
+    </div>
+    <div class="space-y-8">
+      <h2 class="text-3xl md:text-5xl font-bold text-green-800 leading-tight">
+        Sistem Arsip Surat <br> Kementerian Agama
       </h2>
-      <p class="text-lg text-gray-600">
+      <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
         Aplikasi modern untuk mengelola arsip surat masuk dan keluar secara efisien, terstruktur, dan mudah diakses oleh seluruh unit kerja Kementerian Agama.
       </p>
-      <a href="/admin/" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold px-6 py-3 rounded-full text-base transition">
+      <a href="/admin/" class="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold px-8 py-4 rounded-full text-lg transition-all transform hover:scale-105">
         Get Started
       </a>
     </div>
-    <div class="md:w-1/2">
-      <img src="https://cdn-icons-png.flaticon.com/512/4783/4783315.png" alt="Ilustrasi Arsip Digital" class="w-full max-w-md mx-auto">
-    </div>
   </main>
 
-  <footer class="text-center text-sm py-6 text-gray-500">
-    © 2025 TAKASUKMA – Kementerian Agama. All rights reserved.
+  <footer class="text-center text-sm py-8 text-gray-500 mt-16">
+    © 2025 ARSIP PENDIS – Kementerian Agama. All rights reserved.
   </footer>
 
 </body>
